@@ -61,6 +61,10 @@ body {
   margin-left: 0.5rem;
 }
 
+.note .tools button:hover {
+    color: blanchedalmond;
+}
+
 .note textarea {
   outline: none;
   font-family: inherit;
