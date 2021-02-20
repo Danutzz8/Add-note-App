@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #7bdaf3;
+    background-image: linear-gradient( 90deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -18,12 +18,18 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background-color: #9ec862;
+  background-color: #57bbc9;
   color: #fff;
   border: none;
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+
+.add:hover {
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
 }
 
 .add:active {
