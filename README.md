@@ -1,3 +1,3 @@
 # Add-note-App
 
-A simple add note app.
+A simple add note app using JS.
